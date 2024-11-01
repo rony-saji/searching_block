@@ -12,7 +12,7 @@ class ProductRepository {
             ProductModel.fromRawJson(response.body).products;
         return products;
       } else {
-        throw "Error loading product";
+        throw "Error loading products";
       }
     } catch (e) {
       rethrow;
