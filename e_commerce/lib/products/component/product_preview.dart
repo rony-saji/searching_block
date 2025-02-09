@@ -29,7 +29,7 @@ class ProductPreview extends StatelessWidget {
                 Text(
                   product.title,
                   style: const TextStyle(
-                      fontSize: 12.0, fontWeight: FontWeight.w500),
+                      fontSize: 12.1, fontWeight: FontWeight.w500),
                 ),
                 Text(
                   '\$${TextFormatter.formatCurrency.format(product.price)}',
